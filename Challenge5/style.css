@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main{
+    width: 100%;
+}
+
+#content{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarIcon{
+    padding: 2em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarIcon p {
+    font-size: 0.5em;
+    margin-top: 0;
+ 
+}
+
+.sidebarIcon ion-icon{
+    font-size: 1.5em;
+}
+
+#topbar{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+#logo{
+    height: 50%;
+}
+
+#search-wrapper{
+    display: flex;
+    height: 50%;
+}
+
+#topbarIcons{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.topbarIcon{
+    display: flex;
+    align-items: center;
+}
+
+.topbarIcon ion-icon{
+    font-size: 1.6em;
+    padding: 0.5em;
+}
+
+#mic-icon{
+    margin: 0 0.5em;
+    display:flex;
+    align-items: center;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.8em;
+    
+}
+
+#search-btn{
+    padding: 0 0.6em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    display:flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin: 10px;
+}
+
+.thumbnail img{
+     width: 100%;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.caption h4{
+    margin: 0 10px;
+}
+
+.caption p{
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 0.7em;
+}
+
+.logo-card{
+    max-width: 10%;
+}
+
+.logo-card img{
+    width: 100%;
+}

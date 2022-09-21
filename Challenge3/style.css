@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+/* 
+Fai in modo che ogni elemento della lista abbia un padding top e bottom di 6px, 22px di padding-left, un bordo inferiore di 1px di questo colore:  
+*/
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff9cc;
+}
+
+h1{
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+h3{
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h6{
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(#42a3e8, #d0be07);
+}
+
+p a{
+    font-weight: 600;
+    font-style: italic;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #42a3e8;
+}
+
+.main-section{
+    padding: 20px;
+}
+.image-container {
+    background-image:url("dolomiti.jpeg");
+    height: 500px;
+    background-position: center;
+    background-size: 100%;
+}
+
+.image-container2 {
+    background-image:url("https://www.italia.it/content/dam/tdh/it/destinations/trentino/media/20210412212551-madonna-di-campiglio-trentino-gettyimages-505210430cut.jpg.transform/w_800/h_500/image.jpeg");
+    height: 500px;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.image-container3 {
+    background-image:url("https://www.italia.it/content/dam/tdh/it/destinations/trentino/media/20210412170453-pale-di-san-martino-di-castrozza-trentino-gettyimages-1158268189cut.jpg.transform/w_800/h_500/image.jpeg");
+    height: 500px;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.image-container4 {
+    background-image:url("https://www.italia.it/content/dam/tdh/it/destinations/veneto/cortina-dampezzo/media/20210423173109-cortina-d-ampezzo-veneto-active-gettyimages-174865461.jpg.transform/w_800/h_500/image.jpeg");
+    height: 500px;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.image-container5 {
+    background-image:url("https://www.italia.it/content/dam/tdh/it/destinations/trentino/media/20210412214907-tre-cime-di-lavaredo-alto-adige-gettyimages-584589490cut.jpg.transform/w_800/h_500/image.jpeg");
+    height: 500px;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.image-container6 {
+    background-image:url("https://www.italia.it/content/dam/tdh/it/destinations/trentino/media/20210409115457-trentino-tn-passo-pordoi-vista-marmolada-shutterstock-1225304005.jpg.transform/w_800/h_500/image.jpeg");
+    height: 500px;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: black;
+    padding: 16px;
+    text-align: center;
+}
+footer a{
+   color: white;
+   text-decoration: none;
+   
+}
